@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+body {
+    background-color: #0f0e0e; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100%;
+}
+
+h1 {
+    color: #dae9f8; 
+    margin-bottom: 50px
+}
+
+.mine {
+    background-color: #dd2b0b; 
+    padding: 100px; 
+    border-radius: 20%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+}
+
+.your {
+    text-align: center;
+    background-color: #110dd6; 
+    padding: 15px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 50%; 
+    height: 100%; 
+    border-radius: 20%;
+}
+
+p {
+    color: #121213; 
+    margin: 50px; 
+    text-align: center;
+}
